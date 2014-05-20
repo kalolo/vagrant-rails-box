@@ -81,6 +81,7 @@ class install_postgres {
   }
 
   pg_user { 'vagrant':
+    pasword  => 'vagrant',
     ensure    => present,
     superuser => true,
     require   => Class['postgresql::server']

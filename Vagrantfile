@@ -12,5 +12,5 @@ Vagrant.configure('2') do |config|
     #puppet.module_path    = 'puppet/modules'
   end
   
-  config.vm.synced_folder "projects/", "/home/vagrant/projects"
+  config.vm.synced_folder "/Users/kalolo/work/inspectlabs/projects/", "/home/vagrant/projects/"
 end
